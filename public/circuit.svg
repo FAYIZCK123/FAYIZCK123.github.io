@@ -1,0 +1,34 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="mechatronics" width="100" height="100" patternUnits="userSpaceOnUse">
+      <g stroke="#888888" stroke-width="1.5" fill="none" opacity="0.9">
+        <!-- Custom Printed Circuit Board Traces -->
+        <path d="M10,0 L10,25 L35,50 L35,100" />
+        <path d="M45,0 L45,45 L65,65 L100,65" />
+        <path d="M0,80 L20,80 L40,60 L40,30 L70,0" />
+        <path d="M85,0 L85,35 L95,45 L95,100" />
+        
+        <!-- Sensor Nodes & Joints -->
+        <circle cx="10" cy="25" r="3" fill="#888888" />
+        <circle cx="45" cy="45" r="3.5" fill="#888888" />
+        <circle cx="20" cy="80" r="3" fill="#888888" />
+        <circle cx="85" cy="35" r="3" fill="#888888" />
+        <circle cx="40" cy="30" r="3" fill="#888888" />
+
+        <!-- Microchip / Actuator Box -->
+        <rect x="65" y="75" width="22" height="16" rx="2" stroke-width="2" />
+        <!-- Chip Pins -->
+        <line x1="68" y1="75" x2="68" y2="71" />
+        <line x1="76" y1="75" x2="76" y2="71" />
+        <line x1="84" y1="75" x2="84" y2="71" />
+        <line x1="68" y1="91" x2="68" y2="95" />
+        <line x1="76" y1="91" x2="76" y2="95" />
+        <line x1="84" y1="91" x2="84" y2="95" />
+        
+        <!-- Inner Processor Details -->
+        <circle cx="76" cy="83" r="2" fill="#888888" />
+      </g>
+    </pattern>
+  </defs>
+  <rect width="100" height="100" fill="url(#mechatronics)" />
+</svg>
