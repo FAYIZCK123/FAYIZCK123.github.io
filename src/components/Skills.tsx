@@ -21,7 +21,7 @@ const skillCategories = [
   },
   {
     category: "Pneumatics & Hydraulics",
-    skills: ["Pneumatic Systems", "Electro-Pneumatics", "Hydraulics", "Circuit Design", "Component Operation"]
+    skills: ["Pneumatic Systems", "Electro-Pneumatics", "Hydraulics"]
   }
 ];
 
